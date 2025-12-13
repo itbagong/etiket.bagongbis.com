@@ -1,0 +1,625 @@
+[05-Dec-2025 12:53:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_id' in 'SELECT' in /home/bagongbi/etiket.bagongbis.com/index.php:42
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/index.php(42): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/index.php on line 42
+[05-Dec-2025 12:53:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_id' in 'SELECT' in /home/bagongbi/etiket.bagongbis.com/index.php:42
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/index.php(42): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/index.php on line 42
+[05-Dec-2025 12:54:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_id' in 'SELECT' in /home/bagongbi/etiket.bagongbis.com/index.php:42
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/index.php(42): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/index.php on line 42
+[05-Dec-2025 12:54:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_id' in 'SELECT' in /home/bagongbi/etiket.bagongbis.com/index.php:42
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/index.php(42): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/index.php on line 42
+[05-Dec-2025 12:58:34 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 12:58:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/location_list.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 12:58:42 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[05-Dec-2025 12:58:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[05-Dec-2025 12:59:03 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 12:59:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/location_list.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 12:59:15 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 12:59:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/location_list.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 12:59:31 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[05-Dec-2025 12:59:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_header.php:17
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/user_work_order.php(8): include()
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[05-Dec-2025 12:59:33 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[05-Dec-2025 12:59:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_header.php:17
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/user_work_order.php(8): include()
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[05-Dec-2025 12:59:43 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/department_list.php on line 9
+[05-Dec-2025 12:59:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/department_list.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/department_list.php on line 9
+[05-Dec-2025 13:04:18 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 13:04:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/location_list.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 13:04:51 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 13:04:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/location_list.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/location_list.php on line 7
+[05-Dec-2025 13:05:32 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/location_form.php on line 7
+[05-Dec-2025 13:05:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/location_form.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/location_form.php on line 7
+[05-Dec-2025 13:06:50 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/department_list.php on line 9
+[05-Dec-2025 13:06:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/department_list.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/department_list.php on line 9
+[05-Dec-2025 13:22:05 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/category_list.php on line 7
+[05-Dec-2025 13:22:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/category_list.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/category_list.php on line 7
+[05-Dec-2025 13:24:43 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[05-Dec-2025 13:24:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:24:55 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:24:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:19 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:20 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:21 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:47 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:48 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:49 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:49 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:49 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:50 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:51 UTC] PHP Warning:  require_once(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:25:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_list.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 8
+[06-Dec-2025 01:26:19 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_form.php on line 6
+[06-Dec-2025 01:26:19 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_form.php on line 6
+[06-Dec-2025 01:26:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_form.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_form.php on line 6
+[06-Dec-2025 01:28:12 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:12 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/change_password.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:43 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:43 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/change_password.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:45 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:45 UTC] PHP Warning:  require(./src/User.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:28:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/User.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/change_password.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/change_password.php on line 6
+[06-Dec-2025 01:29:34 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/role.php on line 7
+[06-Dec-2025 01:29:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/role.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/role.php on line 7
+[06-Dec-2025 01:31:13 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/role.php on line 7
+[06-Dec-2025 01:31:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/role.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/role.php on line 7
+[06-Dec-2025 01:31:14 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/role.php on line 7
+[06-Dec-2025 01:31:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/role.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/role.php on line 7
+[06-Dec-2025 01:35:10 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:35:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/access_form.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:17 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/access_form.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:18 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/access_form.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:19 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/access_form.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:19 UTC] PHP Warning:  require_once(./src/Role.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:36:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Role.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/access_form.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/access_form.php on line 6
+[06-Dec-2025 01:41:01 UTC] PHP Warning:  require_once(./src/Menu.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/menu.php on line 6
+[06-Dec-2025 01:41:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Menu.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/menu.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/menu.php on line 6
+[06-Dec-2025 01:41:37 UTC] PHP Warning:  require_once(./src/Menu.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/menu.php on line 6
+[06-Dec-2025 01:41:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Menu.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/menu.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/menu.php on line 6
+[06-Dec-2025 01:42:06 UTC] PHP Warning:  require_once(./src/Menu.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/menu_form.php on line 4
+[06-Dec-2025 01:42:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Menu.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/menu_form.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/menu_form.php on line 4
+[06-Dec-2025 01:42:35 UTC] PHP Warning:  require_once(./src/Menu.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/menu_form.php on line 4
+[06-Dec-2025 01:42:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Menu.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/menu_form.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/menu_form.php on line 4
+[06-Dec-2025 01:42:36 UTC] PHP Warning:  require_once(./src/Menu.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/menu_form.php on line 4
+[06-Dec-2025 01:42:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Menu.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/menu_form.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/menu_form.php on line 4
+[06-Dec-2025 01:43:51 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:43:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_header.php:17
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/user_work_order.php(8): include()
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:44:19 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:29 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:30 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:30 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:51 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:44:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:57 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:58 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:45:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:00 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:00 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:00 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:01 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:03 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:04 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:04 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:06 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:46:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/work_order_view.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/work_order_view.php on line 6
+[06-Dec-2025 01:48:13 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:48:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_header.php:17
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/user_work_order.php(8): include()
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:49:15 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:49:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_header.php:17
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/user_work_order.php(8): include()
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:49:18 UTC] PHP Warning:  require_once(./src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:49:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/user_header.php:17
+Stack trace:
+#0 /home/bagongbi/etiket.bagongbis.com/user_work_order.php(8): include()
+#1 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_header.php on line 17
+[06-Dec-2025 01:51:23 UTC] PHP Warning:  require_once(/home/bagongbi/etiket.bagongbis.com/src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bagongbi/etiket.bagongbis.com/src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_pdf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:53 UTC] PHP Warning:  require_once(/home/bagongbi/etiket.bagongbis.com/src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bagongbi/etiket.bagongbis.com/src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_pdf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:54 UTC] PHP Warning:  require_once(/home/bagongbi/etiket.bagongbis.com/src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bagongbi/etiket.bagongbis.com/src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_pdf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:55 UTC] PHP Warning:  require_once(/home/bagongbi/etiket.bagongbis.com/src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 01:51:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bagongbi/etiket.bagongbis.com/src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_pdf.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_pdf.php on line 13
+[06-Dec-2025 03:35:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:35:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/bagongbi/etiket.bagongbis.com/header.php on line 5
+[06-Dec-2025 03:35:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/user_list.php:1) in /home/bagongbi/etiket.bagongbis.com/header.php on line 8
+[06-Dec-2025 03:36:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method User::activate() in /home/bagongbi/etiket.bagongbis.com/user_list.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/user_list.php on line 67
+[06-Dec-2025 04:05:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:06:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[06-Dec-2025 04:06:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[06-Dec-2025 04:06:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:06:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:06:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:07:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:07:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:07:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:08:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[06-Dec-2025 04:08:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[06-Dec-2025 04:09:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[08-Dec-2025 07:11:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:11:11 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:11:22 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:11:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:11:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:12:47 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:12:49 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:13:19 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 178
+[08-Dec-2025 07:13:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 113
+[08-Dec-2025 07:13:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 114
+[08-Dec-2025 07:13:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 127
+[08-Dec-2025 07:13:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 128
+[08-Dec-2025 07:13:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 129
+[08-Dec-2025 07:13:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 130
+[08-Dec-2025 07:13:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 113
+[08-Dec-2025 07:13:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 114
+[08-Dec-2025 07:14:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 113
+[08-Dec-2025 07:14:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 114
+[08-Dec-2025 07:14:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 113
+[08-Dec-2025 07:14:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 114
+[08-Dec-2025 07:14:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 127
+[08-Dec-2025 07:14:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 128
+[08-Dec-2025 07:14:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 129
+[08-Dec-2025 07:14:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 130
+[08-Dec-2025 07:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 127
+[08-Dec-2025 07:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 128
+[08-Dec-2025 07:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 129
+[08-Dec-2025 07:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 130
+[08-Dec-2025 07:22:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 116
+[08-Dec-2025 07:22:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 117
+[08-Dec-2025 07:22:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 130
+[08-Dec-2025 07:22:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 131
+[08-Dec-2025 07:22:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 132
+[08-Dec-2025 07:22:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 133
+[08-Dec-2025 07:24:00 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:28 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:30 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:30 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:24:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:25:06 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:25:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:25:08 UTC] PHP Warning:  require_once(src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[08-Dec-2025 07:25:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/export_work_order_detailed.php on line 9
+[11-Dec-2025 03:13:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[11-Dec-2025 03:15:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:15:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:16:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:16:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:16:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:16:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[11-Dec-2025 03:21:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:22:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:22:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:22:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/dashboard.php on line 20
+[11-Dec-2025 03:22:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:23:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:23:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:23:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:24:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:25:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[11-Dec-2025 03:25:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[12-Dec-2025 07:13:40 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:13:40 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:13:40 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:13:40 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:13:40 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:56 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:56 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:56 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:56 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:17:56 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:25 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:25 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:25 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:25 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:25 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:34 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:34 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:34 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:34 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:18:34 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:27:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:27:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:27:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:27:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:27:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:59:00 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:59:00 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:59:00 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:59:00 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:59:00 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 07:59:00 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:04:44 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:04:44 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:04:44 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:04:44 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:04:44 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:04:44 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:24:41 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:24:41 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:24:41 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:24:41 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:24:41 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[12-Dec-2025 08:24:41 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 02:35:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[13-Dec-2025 02:35:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[13-Dec-2025 02:35:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[13-Dec-2025 02:35:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[13-Dec-2025 02:35:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[13-Dec-2025 02:36:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bagongbi/etiket.bagongbis.com/header.php:72) in /home/bagongbi/etiket.bagongbis.com/work_order.php on line 17
+[13-Dec-2025 02:59:56 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:01:04 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:01:04 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:31:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:31:03 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:32:22 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:32:22 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:32:36 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:32:36 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:33:04 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:33:04 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:35:01 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:35:01 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:39:14 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:39:14 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:39:15 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:39:15 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:39:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 04:39:16 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 06:52:55 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 06:52:55 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89
+[13-Dec-2025 06:52:55 UTC] PHP Warning:  Undefined array key "SN_No_Inventaris" in /home/bagongbi/etiket.bagongbis.com/src/pdf_reportgenerator.php on line 89

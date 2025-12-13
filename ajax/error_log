@@ -1,0 +1,145 @@
+[05-Dec-2025 12:57:57 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:57:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:00 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:13 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:20 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:22 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:23 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:26 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:58:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:58:38 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:46 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:54 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:56 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:57 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:58:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:00 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:07 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:12 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:29 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:36 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:38 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:40 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:45 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 12:59:57 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 12:59:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications.php on line 13
+[05-Dec-2025 13:04:43 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 13:04:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 13:21:58 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[05-Dec-2025 13:21:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:24:44 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:24:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:49:46 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:49:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:49:58 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:49:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:50:01 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:50:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:51:10 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:51:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:52:43 UTC] PHP Warning:  require_once(../src/Security.php): Failed to open stream: No such file or directory in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29
+[06-Dec-2025 01:52:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../src/Security.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bagongbi/etiket.bagongbis.com/ajax/ajax_get_notifications_user_progress.php on line 29

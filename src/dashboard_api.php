@@ -1,0 +1,249 @@
+<?php
+// ===============================================
+// 1. AKTIFKAN PELAPORAN KESALAHAN (DEBUGGING)
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+// ===============================================
+
+require_once '../function.php'; 
+
+header('Content-Type: application/json');
+
+// ===============================================
+// 2. CEK KONEKSI DATABASE DAN KELUAR JIKA GAGAL
+try {
+    $conn = Database::getInstance();
+    if (!$conn) {
+        throw new Exception("Gagal membuat instance koneksi database.");
+    }
+} catch (\Throwable $e) {
+    echo json_encode([
+        'error' => 'Database connection failed or class not found.',
+        'message' => $e->getMessage()
+    ]);
+    exit; 
+}
+// ===============================================
+
+// Filter dari permintaan
+$filter = $_GET['filter'] ?? 'all';
+$location_id = $_GET['location_id'] ?? 'all';
+$category_id = $_GET['category_id'] ?? 'all';
+
+// Persiapan array WHERE clause
+$whereWo = []; // Untuk work_order (stats, trend, recent)
+$whereWoItems = []; // Untuk work_order_items (category, subcategory)
+
+// === Filter Status Aktif (status_wo = 0) Secara Global ===
+$whereWo[] = "w.status_wo = 0"; 
+$whereWoItems[] = "wo.status_wo = 0";
+
+// Kondisi Item aktif: work_order_items harus aktif (status = 0)
+$whereWoItems[] = "wi.status = 0"; 
+
+// Filter waktu
+if ($filter === 'month') {
+    $whereWo[] = "MONTH(w.date_request) = MONTH(CURDATE()) AND YEAR(w.date_request) = YEAR(CURDATE())";
+    $whereWoItems[] = "MONTH(wo.date_request) = MONTH(CURDATE()) AND YEAR(wo.date_request) = YEAR(CURDATE())";
+} elseif ($filter === 'week') {
+    $whereWo[] = "YEARWEEK(w.date_request, 1) = YEARWEEK(CURDATE(), 1)";
+    $whereWoItems[] = "YEARWEEK(wo.date_request, 1) = YEARWEEK(CURDATE(), 1)";
+}
+
+// Filter lokasi
+if ($location_id !== 'all' && is_numeric($location_id)) {
+    $whereWo[] = "w.location = " . intval($location_id);
+    $whereWoItems[] = "wo.location = " . intval($location_id);
+}
+
+// === PENANGANAN KLAUSA WHERE ===
+$whereWoSql = (count($whereWo) > 0) ? "WHERE " . implode(" AND ", $whereWo) : "";
+$whereWoItemsSql = (count($whereWoItems) > 0) ? "WHERE " . implode(" AND ", $whereWoItems) : "";
+
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === Statistik utama (Status) ===
+$stats = ['total' => 0, 'open' => 0, 'progress' => 0, 'done' => 0, 'closed' => 0];
+$q = $conn->query("SELECT status, COUNT(*) as jml FROM work_order w $whereWoSql GROUP BY status");
+
+if (!$q) {
+    echo json_encode(['error' => 'Query Stats Failed', 'mysql_error' => $conn->error]);
+    exit;
+}
+$total = 0;
+while ($r = $q->fetch_assoc()) {
+    $stats[strtolower($r['status'])] = (int)$r['jml']; 
+    $total += (int)$r['jml'];
+}
+$stats['total'] = $total;
+
+foreach (['open', 'progress', 'closed'] as $s) { 
+    $stats["percent_{$s}"] = $total ? round($stats[$s] / $total * 100, 1) : 0;
+}
+unset($stats['done']);
+
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === Daftar Semua Lokasi ===
+$locations = [];
+$resLoc = $conn->query("
+    SELECT l.location_id, l.location_name, COUNT(w.wo_id) AS total
+    FROM work_order w
+    LEFT JOIN location l ON l.location_id = w.location
+    " . $whereWoSql . "
+    GROUP BY l.location_id, l.location_name
+    ORDER BY total DESC
+");
+if ($resLoc) {
+    while ($r = $resLoc->fetch_assoc()) {
+        $locations[] = [
+            'id' => $r['location_id'],
+            'name' => $r['location_name'],
+            'total' => (int)$r['total']
+        ];
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === 1. Daftar Semua Kategori (untuk dropdown filter) ===
+$allCategories = [];
+$resAllCat = $conn->query("SELECT id, name FROM ticket_category WHERE status = 0 ORDER BY name ASC");
+if ($resAllCat) {
+    while ($r = $resAllCat->fetch_assoc()) {
+        $allCategories[] = ['id' => $r['id'], 'name' => $r['name']];
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === 2. Statistik Kategori ===
+$categoryStats = [];
+$resCatStats = $conn->query("
+    SELECT 
+        c.name AS category_name, 
+        COUNT(wi.id) AS total
+    FROM work_order_items wi
+    JOIN work_order wo ON wo.wo_id = wi.wo_id 
+    LEFT JOIN ticket_category c ON c.id = wi.category 
+    " . $whereWoItemsSql . " 
+    GROUP BY c.id, c.name
+    ORDER BY total DESC
+");
+if ($resCatStats) {
+    while ($r = $resCatStats->fetch_assoc()) {
+        $categoryStats[] = [
+            'name' => $r['category_name'] ?? 'Lainnya',
+            'total' => (int)$r['total']
+        ];
+    }
+}
+
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === 3. Statistik Subkategori ===
+$whereSubcatItems = $whereWoItems;
+if ($category_id !== 'all' && is_numeric($category_id)) {
+    $whereSubcatItems[] = "wi.category = " . intval($category_id); 
+}
+$whereSubcatItemsSql = (count($whereSubcatItems) > 0) ? "WHERE " . implode(" AND ", $whereSubcatItems) : "";
+
+$subcategoryStats = [];
+$resSubCatStats = $conn->query("
+    SELECT 
+        s.name AS subcategory_name,
+        COUNT(wi.id) AS total
+    FROM work_order_items wi
+    JOIN work_order wo ON wo.wo_id = wi.wo_id
+    LEFT JOIN ticket_subcategory s ON s.id = wi.subcategory
+    " . $whereSubcatItemsSql . "
+    GROUP BY s.id, s.name
+    ORDER BY total DESC
+    LIMIT 10
+");
+if ($resSubCatStats) {
+    while ($r = $resSubCatStats->fetch_assoc()) {
+        $subcategoryStats[] = [
+            'name' => $r['subcategory_name'] ?? 'Tidak Diketahui',
+            'total' => (int)$r['total']
+        ];
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === Statistik Jangka Waktu Pengerjaan (SLA) - PER KATEGORI ===
+$slaConditions = [
+    "w.status = 'closed'", 
+    "w.updated_at IS NOT NULL"
+];
+
+$slaWhereArray = $whereWo; 
+$slaWhereArray = array_merge($slaWhereArray, $slaConditions);
+$slaWhere = "WHERE " . implode(" AND ", $slaWhereArray);
+
+$slaStats = [];
+$resSla = $conn->query("
+    SELECT 
+        c.name AS category_name, 
+        AVG(TIMESTAMPDIFF(HOUR, w.date_request, w.updated_at)) AS avg_hours,
+        COUNT(w.wo_id) as total_wo_closed
+    FROM work_order w
+    JOIN work_order_items wi ON wi.wo_id = w.wo_id 
+    LEFT JOIN ticket_category c ON c.id = wi.category 
+    " . $slaWhere . "
+    GROUP BY c.name
+    HAVING total_wo_closed > 0
+    ORDER BY avg_hours DESC
+");
+if ($resSla) {
+    while ($r = $resSla->fetch_assoc()) {
+        $slaStats[] = [
+            'name' => $r['category_name'] ?? 'Tidak Diketahui',
+            'avg_hours' => round($r['avg_hours'], 1), 
+            'total' => (int)$r['total_wo_closed']
+        ];
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === Work order terakhir (RECENT) ===
+$recent = [];
+$resRecent = $conn->query("
+    SELECT w.wo_id, u.name AS requester_name, d.departemen_name, l.location_name, w.priority, w.status, w.date_request
+    FROM work_order w
+    LEFT JOIN users u ON u.id = w.requester_id 
+    LEFT JOIN departemen d ON d.departemen_id = w.department 
+    LEFT JOIN location l ON l.location_id = w.location 
+    " . $whereWoSql . "
+    ORDER BY w.wo_id DESC LIMIT 5
+");
+if ($resRecent) {
+    // Pastikan kolom yang diambil adalah requester_name
+    while ($r = $resRecent->fetch_assoc()) $recent[] = $r;
+}
+
+// ----------------------------------------------------------------------------------------------------------------------
+// === Trend Harian ===
+$trend = [];
+$resTrend = $conn->query("
+    SELECT DATE(w.date_request) AS date, COUNT(*) AS total
+    FROM work_order w
+    " . $whereWoSql . "
+    GROUP BY DATE(w.date_request)
+    ORDER BY DATE(w.date_request) ASC
+");
+if ($resTrend) {
+    while ($r = $resTrend->fetch_assoc()) $trend[] = $r;
+}
+
+// ===============================================
+// OUTPUT AKHIR JSON
+// ===============================================
+echo json_encode([
+    'stats' => $stats,
+    'locations' => $locations,
+    'all_categories' => $allCategories, 
+    'category_stats' => $categoryStats, 
+    'subcategory_stats' => $subcategoryStats,
+    'sla_stats' => $slaStats, 
+    'recent' => $recent,
+    'trend' => $trend
+]);
